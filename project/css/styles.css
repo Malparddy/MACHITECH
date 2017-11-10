@@ -1,0 +1,266 @@
+/* HEADING */
+
+header {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid;
+  text-align: center;
+  background: grey;
+
+}
+
+header span {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 2;
+  border-bottom: 1px solid;
+  padding-bottom: 1px;
+  margin-top: 10px;
+  font-weight: lighter;
+ }
+
+#logo {
+
+}
+
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  font-size:75px;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.3);
+  color: orange;
+  border-bottom: dotted;
+}
+
+h2 {
+	color: black;
+}
+
+/********
+PAGE:PORTFOLIO
+********/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+#gallery li a p {
+  margin: 0;
+  padding-top: 2%;
+  font-size: 1em;
+  color: #bdc3c7;
+
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  color: #bdc3c7;
+}
+
+
+/**********
+BODY CONTENT
+***********/
+
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+  color: #878787;
+  margin: 0;
+  background-color: black;
+}
+
+
+p {
+  color: black;
+  line-height: 1.6;
+  padding: 1px 1%;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0 9px 3px 9px;
+  display: inline-block;
+  color: #fff;
+	}
+
+
+a:active,
+a:hover {
+  color: blue;
+}
+
+/************IMAGES***********/
+img {
+	padding-top: 20px;
+  max-width: 100%;
+
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+
+/********************/
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: %; /*50px*/
+    padding: px; /*5opx*/
+}
+
+.column img {
+    margin-top: 10px;
+    width: /*100%;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: /*inline-block;*/
+    clear: /* both;*/
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 940px) {
+    .column {
+        width: /*50%;*/
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: /*100%;*/
+   }
+}
+
+section p {
+  color: white;
+}
+
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 7px 14px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+
+h3 {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	text-decoration: underline;
+	color: blue;
+  margin-left: 50px;
+
+}
+
+h3
+
+h4 {
+	padding-top: 40px;
+	margin-bottom: 15;
+	font-size: 30px;
+	color: blue;
+	text-decoration: underline;
+  margin-left: 50px;
+}
+
+ nav {
+ 	color: grey;
+    font size: 5px;
+    padding-top: 1px;
+    margin-top: 0;
+ }
+
+ nav li a {
+  color: black;
+  float: left;
+  background-color: white;
+ }
+
+nav li{
+ 	font-size: 20px;
+ 	color: white;
+ 	padding-left: 20px;
+  margin-left: 1px;
+  list-style: none;
+
+ }
+
+ .primary li {
+  list-style: inline;
+ }
+
+
+/* FOOTER */
+
+footer a {
+  height: 20px;
+  margin: 0 5px;
+}
+
+footer p {
+  color: blue;
+  font-size: 15px;
+}
+
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+
+ /* Style all font awesome icons */
+.fa {
+    padding: 60px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+
+ 
+
+ 
