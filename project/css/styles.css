@@ -167,23 +167,22 @@ section p {
 
 
 h3 {
-	padding-top: 10px;
+  clear: both;
+	padding-top: 30px;
 	padding-bottom: 30px;
 	text-decoration: underline;
 	color: blue;
-  margin-left: 50px;
+ 
 
 }
 
-h3
-
-h4 {
-	padding-top: 40px;
+h4{
+	padding-top: 30px;
 	margin-bottom: 15;
 	font-size: 30px;
 	color: blue;
 	text-decoration: underline;
-  margin-left: 50px;
+  
 }
 
  nav {
@@ -216,8 +215,8 @@ nav li{
 /* FOOTER */
 
 footer a {
-  height: 20px;
   margin: 0 5px;
+  height: 20px;
 }
 
 footer p {
